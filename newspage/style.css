@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+body {
+  background-color: hsl(36, 100%, 99%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+.container {
+  padding: 0 8rem 0 8rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.nav-links ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 2rem;
+}
+.nav-links a {
+  color: hsl(233, 8%, 79%);
+}
+a {
+  text-decoration: none;
+}
+main {
+  display: flex;
+  width: 100%;
+  margin-top: 3rem;
+  column-gap: 1.5rem;
+}
+.future-description {
+  display: flex;
+  margin-top: 2rem;
+  column-gap: 5rem;
+}
+.first-design {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.web3 img {
+  height: 250px;
+  width: 100%;
+}
+.bright-future {
+  width: 50%;
+}
+.bright-future h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  width: 300px;
+}
+.next-evolution {
+  width: 50%;
+}
+.next-evolution p {
+  color: hsl(233, 8%, 79%);
+  font-size: 15px;
+}
+.next-evolution button {
+  border: none;
+  padding: 0.7rem 1.5rem;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+  background-color: hsl(5, 85%, 63%);
+}
+.next-evolution a {
+  color: white;
+}
+.first-design-right {
+  width: 30%;
+  background-color: hsl(240, 100%, 5%);
+  padding: 0 1rem 0 1rem;
+}
+.new {
+  color: hsl(35, 77%, 62%);
+  margin-top: 1.5rem;
+}
+.first-design-right h5 {
+  color: white;
+  margin-top: 1.6rem;
+}
+.first-design-right p {
+  color: hsl(236, 13%, 42%);
+  margin-top: 0.6rem;
+  font-size: 15px;
+}
+hr {
+  border-width: 0.1px;
+  border-color: hsl(236, 13%, 42%);
+  margin-top: 1.2rem;
+}
+footer {
+  display: flex;
+  margin-top: 4rem;
+  width: 100%;
+}
+.first-footer {
+  display: flex;
+  width: 70%;
+}
+.second-footer {
+  width: 30%;
+}
+footer img {
+  width: 90px;
+  height: 108px;
+  margin-right: 2rem;
+}
+.reviving-retro {
+  display: flex;
+  /* width: 50%; */
+}
+.top-laptops {
+  display: flex;
+  /* width: 50%; */
+}
+.gaming-growth {
+  display: flex;
+}
+footer p {
+  font-size: 15px;
+  color: hsl(233, 8%, 79%);
+}
+footer h5 {
+  margin: 0.7rem auto;
+}
+footer h2 {
+  color: hsl(233, 8%, 79%);
+}
