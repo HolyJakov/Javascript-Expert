@@ -23,7 +23,7 @@ function evenOrNot(number){
         console.log('odd number');
     }
 }
-const answer =evenOrNot(4);
+evenOrNot(4);
 
 
 
